@@ -61,17 +61,6 @@ $(document).on('turbolinks:load',function(){
   $(".fadeInDown").hide().fadeIn(4000);
 });
 
-$(document).on('turbolinks:load', function () {
-	$('#zip').jpostal({
-		postcode : [
-			'#zip'
-		],
-		address : {
-			'#address' : '%3%4%5'
-		}
-	});
-});
-
 /*スクロールのフェードイン*/
 $(window).scroll(function (){
 	$('.fadein').each(function(){
