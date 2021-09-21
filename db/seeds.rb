@@ -10,6 +10,17 @@
 User.create!(
   [
     {
+      email: 'guest@mail',
+      name: 'me',
+      partner_name: 'you',
+      couple_name: 'happy2',
+      anniversary: '2020-09-15',
+      password: 'guest01',
+      password_confirmation: 'guest01',
+      is_deleted: false,
+      profile_image: File.open('./app/assets/images/photoimg/picnic.JPG')
+    },
+    {
       email: Faker::Internet.email,
       name: '夢',
       partner_name: '拓哉',
